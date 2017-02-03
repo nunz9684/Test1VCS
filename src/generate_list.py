@@ -1,6 +1,7 @@
 import random 
 def generate_list():
-    alist = [x for x in range(random.randint(-10,10))]
+    alist = [x for x in range(random.randint(-10,10)) ]
+    assert alist is " " and sum(alist) < 100 
     return alist
     
 def printIt():
