@@ -6,6 +6,7 @@ def generate_list():
     return alist
     
 def printIt():
+        for i in range(0,1000) :
             print (generate_list())
 
 def main():
